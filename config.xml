@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android = "http://schemas.android.com/apk/res/android" id="com.pixelgang.hey" version="1.0">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android = "http://schemas.android.com/apk/res/android" id="com.pixelgang.hey" version="1.2">
 
-	<name>hey hey hey</name>
-	<description>The famous saying prank</description>
-	<author href="http://www.pixelgangstudios.com" email="support@pixelgangstudios.com">Pixel Gang Studios</author>
+	<name>hey hey hey Albert</name>
+	<description>the famous saying prank</description>
+	<author href="http://www.pixelgangstudios.com" email="support@pixelgangstudios.com">pixel gang studios</author>
 
 	<icon src="icon-128.png" width="128" height="128" />
 	<icon src="icon-256.png" width="256" height="256" gap:role="default" />
 
 	<preference name="permissions" value="none"/>
-	<preference name="android-targetSdkVersion" value="16" />
+	<preference name="android-targetSdkVersion" value="21" />
 
 	<feature name="http://api.phonegap.com/1.0/network"/>
 
@@ -18,9 +18,7 @@
 	<gap:config-file platform="ios" parent="UIStatusBarHidden"><true/></gap:config-file>
 	<gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance"><false/></gap:config-file>
 	<gap:config-file platform="android" parent="/manifest" mode="delete"> <uses-permission android:name="android.permission.READ_PHONE_STATE"/> </gap:config-file>
-
-	<gap:config-file platform="android" parent="/manifest" mode="delete"> <uses-permission android:name="android.permission.INTERNET"/> </gap:config-file>
-
+	
 	<preference name="deployment-target" value="8.0" />
 	<preference name="android-minSdkVersion" value="16" />
 	<plugin name="cordova-plugin-crosswalk-webview" source="npm" />
